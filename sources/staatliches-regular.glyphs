@@ -15236,15 +15236,63 @@ unicode = FB02;
 },
 {
 glyphname = ordfeminine;
-lastChange = "2018-10-12 15:33:44 +0000";
+lastChange = "2018-10-12 16:55:18 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = a;
+name = ogonek;
+position = "{348, -11}";
+},
+{
+name = top;
+position = "{204, 835}";
 }
 );
 layerId = "105671D0-52CD-46B5-9B81-8ED8F76D0899";
+paths = (
+{
+closed = 1;
+nodes = (
+"6 225 OFFCURVE",
+"7 223 OFFCURVE",
+"10 223 CURVE SMOOTH",
+"121 223 LINE SMOOTH",
+"124 223 OFFCURVE",
+"125 224 OFFCURVE",
+"126 227 CURVE SMOOTH",
+"137 276 LINE",
+"273 276 LINE",
+"284 227 LINE SMOOTH",
+"285 224 OFFCURVE",
+"286 223 OFFCURVE",
+"289 223 CURVE SMOOTH",
+"400 223 LINE SMOOTH",
+"403 223 OFFCURVE",
+"405 224 OFFCURVE",
+"404 227 CURVE SMOOTH",
+"285 693 LINE SMOOTH",
+"284 695 OFFCURVE",
+"282 696 OFFCURVE",
+"280 696 CURVE SMOOTH",
+"135 696 LINE SMOOTH",
+"133 696 OFFCURVE",
+"131 695 OFFCURVE",
+"130 693 CURVE SMOOTH",
+"6 227 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"202 540 LINE",
+"206 565 LINE",
+"212 540 LINE",
+"253 349 LINE",
+"157 349 LINE"
+);
+}
+);
 width = 427;
 }
 );
@@ -15254,15 +15302,56 @@ unicode = 00AA;
 },
 {
 glyphname = ordmasculine;
-lastChange = "2018-10-12 15:33:05 +0000";
+lastChange = "2018-10-12 16:55:19 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = O;
+name = top;
+position = "{223, 835}";
 }
 );
 layerId = "105671D0-52CD-46B5-9B81-8ED8F76D0899";
+paths = (
+{
+closed = 1;
+nodes = (
+"333 210 OFFCURVE",
+"421 301 OFFCURVE",
+"421 411 CURVE",
+"420 508 LINE",
+"420 618 OFFCURVE",
+"332 707 OFFCURVE",
+"225 707 CURVE",
+"118 707 OFFCURVE",
+"29 617 OFFCURVE",
+"29 508 CURVE",
+"28 411 LINE",
+"28 301 OFFCURVE",
+"117 210 OFFCURVE",
+"225 210 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"184 331 OFFCURVE",
+"150 367 OFFCURVE",
+"150 411 CURVE",
+"150 508 LINE",
+"150 553 OFFCURVE",
+"183 587 OFFCURVE",
+"225 587 CURVE",
+"267 587 OFFCURVE",
+"299 552 OFFCURVE",
+"299 508 CURVE",
+"300 411 LINE",
+"300 369 OFFCURVE",
+"265 331 OFFCURVE",
+"225 331 CURVE"
+);
+}
+);
 width = 457;
 }
 );
