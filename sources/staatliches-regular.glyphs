@@ -15691,7 +15691,7 @@ unicode = 03C0;
 },
 {
 glyphname = zero;
-lastChange = "2018-10-12 16:47:44 +0000";
+lastChange = "2018-10-12 17:05:00 +0000";
 layers = (
 {
 anchors = (
@@ -15738,7 +15738,8 @@ nodes = (
 "340 143 OFFCURVE",
 "302 111 OFFCURVE",
 "245 111 CURVE",
-"150 143 OFFCURVE"
+"245 111 CURVE",
+"302 111 OFFCURVE"
 );
 }
 );
