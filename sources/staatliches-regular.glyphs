@@ -1,5 +1,8 @@
 {
-.appVersion = "1141";
+.appVersion = "1160";
+DisplayStrings = (
+C
+);
 copyright = "2018";
 customParameters = (
 {
@@ -996,7 +999,7 @@ unicode = 0042;
 },
 {
 glyphname = C;
-lastChange = "2018-10-09 15:01:31 +0000";
+lastChange = "2018-10-12 15:17:58 +0000";
 layers = (
 {
 anchors = (
@@ -1007,12 +1010,6 @@ position = "{225, -11}";
 {
 name = top;
 position = "{224, 835}";
-}
-);
-annotations = (
-{
-position = "{1128.937, -416.736}";
-type = Text;
 }
 );
 layerId = "105671D0-52CD-46B5-9B81-8ED8F76D0899";
