@@ -39,7 +39,7 @@ fill(1)
 lineSpaceA = 24
 lineSpaceB = 21
 startPointA = 900
-startPointB = 851
+startPointB = 784
 
 
 #draw main
@@ -55,7 +55,7 @@ fill(1,0.1,0)
 text("IN WEIMAR", (M, (startPointA)-(lineSpaceA*8)))
 fill(0,0.5,1)
 text("1919—1923", (M, (startPointA)-(lineSpaceA*11)))
-
+#text("1919—1923", (M, (startPointA)-(lineSpaceA*14)))
 
 tracking(0)
 fill(1)
@@ -71,9 +71,9 @@ text("ÐĎĐEÉĔĚÊËĖÈĒĘFGĞĜĢĠHĦȞĤIĲÍĬÎ", (M, (startPointB)-(l
 text("ÏİÌĪĮĨJĴKĶLĹĽĻĿŁMNŃŇŅŊÑOÓŎÔÖÒ", (M, (startPointB)-(lineSpaceB*19)))
 text("ŐŌØǾÕŒPÞQRŔŘŖSŚŠŞŜȘTŦŤŢȚUÚ", (M, (startPointB)-(lineSpaceB*22)))
 text("ŬÛÜÙŰŪŲŮŨVWẂŴẄẀXYÝŶŸỲZŹŽŻ", (M, (startPointB)-(lineSpaceB*25)))
-text("¹²³⁴½¼¾…!¡?¿·•*#(){}[]-–—_‚„", (M, (startPointB)-(lineSpaceB*28)))
-text("“”‘’«»‹›¢$€ƒ£¥+−×÷=≠><≥≤±≈~¬", (M, (startPointB)-(lineSpaceB*31)))
-text("^∞∏√%‰◊@&¶§©®™°|¦†‡", (M, (startPointB)-(lineSpaceB*34)))
+text("½¼¾.,:;!¡?¿·•#(){}[]-–—_“”‘’", (M, (startPointB)-(lineSpaceB*28)))
+text("¢$€ƒ£¥+−×÷=≠∞∏√◊¶§©®™°|¦†‡", (M, (startPointB)-(lineSpaceB*31)))
+
 
 # Save GIF
 os.chdir("docs")
