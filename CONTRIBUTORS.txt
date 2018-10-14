@@ -9,5 +9,6 @@
 # Names should be added to this file as:
 # Name <email address>
 
-
-Foo Bar <foo@bar.com>
+Erica Carras <ecce2ecce@gmail.com>
+Brian LaRossa <brian.larossa@gmail.com>
+Eli Heuer <elih@protonmail.com>
