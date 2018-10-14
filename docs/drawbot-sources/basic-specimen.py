@@ -42,6 +42,7 @@ startPointA = 900
 startPointB = 784
 
 
+
 #draw main
 fontSize(90)
 tracking(0)
@@ -65,19 +66,24 @@ text(" WXYZ12345678", (M+303, (startPointA)-(lineSpaceA*8)))
 text(" 90!?@$%&.,:;*", (M+326, (startPointA)-(lineSpaceA*11)))
 
 fontSize(48)
-tracking(8)
-text("AÁĂÂÄÀĀĄÅǺÃÆǼBCĆČÇĈĊDÐĎĐĊD", (M, (startPointB)-(lineSpaceB*13)))
-text("ÐĎĐEÉĔĚÊËĖÈĒĘFGĞĜĢĠHĦȞĤIĲÍĬÎ", (M, (startPointB)-(lineSpaceB*16)))
-text("ÏİÌĪĮĨJĴKĶLĹĽĻĿŁMNŃŇŅŊÑOÓŎÔÖÒ", (M, (startPointB)-(lineSpaceB*19)))
-text("ŐŌØǾÕŒPÞQRŔŘŖSŚŠŞŜȘTŦŤŢȚUÚ", (M, (startPointB)-(lineSpaceB*22)))
-text("ŬÛÜÙŰŪŲŮŨVWẂŴẄẀXYÝŶŸỲZŹŽŻ", (M, (startPointB)-(lineSpaceB*25)))
-text("½¼¾.,:;!¡?¿·•#(){}[]-–—_“”‘’", (M, (startPointB)-(lineSpaceB*28)))
-text("¢$€ƒ£¥+−×÷=≠∞∏√◊¶§©®™°|¦†‡", (M, (startPointB)-(lineSpaceB*31)))
+tracking(2)
+text("AÁĂÂÄÀĀĄÅǺÃÆǼBCĆČÇĈĊDÐĎĐĊDÐĎĐEÉĔ", (M, (startPointB)-(lineSpaceB*13)))
+text("ĚÊËĖÈĒĘFGĞĜĢĠHĦȞĤIĬĮĨJĴKĶLĹĽĻĿŁMNŃŇ", (M, (startPointB)-(lineSpaceB*16)))
+text("ŅŊÑOÓŎÔÖÒŐŌØǾÕŒPÞQRŔŘŖSŚŠŞŜȘTŦŤŢ", (M, (startPointB)-(lineSpaceB*19)))
+text("ȚUÚŬÛÜÙŰŪŲŮŨVWẂŴẄẀXYÝŶŸỲZŹŽŻ!¡?¿¦", (M, (startPointB)-(lineSpaceB*22)))
+text("", (M, (startPointB)-(lineSpaceB*25)))
+text("½¼¾(){}[]_-–—“”‘’¢$€ƒ£¥+−×÷=≠∞◊¶", (M, (startPointB)-(lineSpaceB*25)))
+text("§©®™°†‡", (M, (startPointB)-(lineSpaceB*28)))
 
+textA = FormattedString()
+#textA.font("fonts/Staatliches-Regular.ttf")
+textA.fontSize(48)
+#textA.appendGlyph("A.alt1", "A.alt2", "AA.ss01", "S.alt1", "LY.ss01", "LA.ss01", "ST.ss01", "CA.ss01", "CD.ss01", "ER.ss01")
 
+text(textA, (100, 100))
 # Save GIF
 os.chdir("docs")
 os.chdir("images")
 saveImage("basic-specimen.gif")
 os.chdir("..")
-os.chdir("sources")
+#os.chdir("sources")
