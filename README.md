@@ -1,6 +1,6 @@
 # Staatliches
 
-Staatliches is a clean cut display face with charmingly unconventional proportions. The alphabet was designed by Brian LaRossa and Erica Carras, with production support from Eli Heuer, in response to Herbert Bayer’s title lettering on the cover of the first Bauhaus exhibition catalogue which was published in 1923. It features full sets of capitals, numbers, punctuation, and symbols, in addition to alternate widths, discretionary ligatures, and common Latin accents. Staatliches will soon be downloadable below free of charge. In addition, thanks to support from Dave Crossland, Staatliches will also be available as a Google Font.
+*Staatliches* is a clean cut display face with charmingly unconventional proportions. The alphabet was designed by [Brian LaRossa](http://www.larossa.co/) and [Erica Carras](https://ericacarras.com/), with production support from [Eli Heuer](https://elih.blog/), in response to Herbert Bayer’s title lettering on the cover of the first Bauhaus exhibition catalogue which was published in 1923. It features full sets of capitals, numbers, punctuation, and symbols, in addition to alternate widths, discretionary ligatures, and common Latin accents. Staatliches is downloadable free of charge. In addition, thanks to support from [Dave Crossland](https://twitter.com/davelab6), Staatliches will also be available as a [Google Font](https://fonts.google.com/).
 
 ![basic specimen](https://github.com/googlefonts/staatliches/blob/master/docs/images/type-brut-specimen.jpg)
 
