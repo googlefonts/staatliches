@@ -75,12 +75,20 @@ text("", (M, (startPointB)-(lineSpaceB*25)))
 text("½¼¾(){}[]_-–—“”‘’¢$€ƒ£¥+−×÷=≠∞◊¶", (M, (startPointB)-(lineSpaceB*25)))
 text("§©®™°†‡", (M, (startPointB)-(lineSpaceB*28)))
 
-textA = FormattedString()
-#textA.font("fonts/Staatliches-Regular.ttf")
-textA.fontSize(48)
-#textA.appendGlyph("A.alt1", "A.alt2", "AA.ss01", "S.alt1", "LY.ss01", "LA.ss01", "ST.ss01", "CA.ss01", "CD.ss01", "ER.ss01")
 
-text(textA, (100, 100))
+t = FormattedString()
+# set a font
+t.font("fonts/Staatliches-Regular.ttf")
+# set a font size
+t.fill(1)
+t.tracking(2)
+t.fontSize(48)
+# add some glyphs by glyph name
+t.appendGlyph("A.alt1", "A.alt2", "Eng", "S.alt1", "germandbls", "zero.zero", "numbersign",)
+# draw the formatted string
+text(t, (304, 194))
+
+
 # Save GIF
 os.chdir("docs")
 os.chdir("images")
