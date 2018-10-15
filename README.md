@@ -9,7 +9,7 @@ To view the copyright and specific terms and conditions please refer to [OFL.txt
 
 # Downloading Font Files (TTF)
 
-Find files are located here: <https://github.com/googlefonts/staatliches/tree/master/fonts>
+Font files are located here: <https://github.com/googlefonts/staatliches/tree/master/fonts>
 
 # Installation Instructions
 
