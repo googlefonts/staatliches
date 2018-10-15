@@ -6,7 +6,7 @@
 <summary>:fire: <b>FAIL:</b> Check font has a license.</summary>
 
 * [com.google.fonts/check/028](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/028)
-* :fire: **FAIL** No license file was found. Please add an OFL.txt or a LICENSE.txt file. If you are running fontbakery on a Google Fonts upstream repo, which is fine, just make sure there is a temporary license file in the same folder. [code: none]
+* :fire: **FAIL** No license file was found. Please add an OFL.txt or a LICENSE.txt file. If you are running fontbakery on a Google Fonts upstream repo, which is fine, just make sure there is a temporary license file in the same folder. [code: no-license]
 
 </details>
 <details>
@@ -1304,7 +1304,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [GSUB, gasp, fpgm, DSIG, loca, cvt , GPOS, prep]
+* :information_source: **INFO** This font contains the following optional tables [GPOS, gasp, DSIG, prep, loca, cvt , fpgm, GSUB]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
