@@ -231,7 +231,7 @@ Reports are ready!
 * :information_source: **INFO** MS-FonVal: No string for Typographic Subfamily name (Name ID 17)
 * :information_source: **INFO** MS-FonVal: Validation for the prep table is not directly implemented, but rasterization testing will validate any executed hinting instructions
 * :information_source: **INFO** MS-FonVal: Rasterization not selected for validation
-* :information_source: **INFO** MS-FonVal: Total time validating file DETAILS: 0:00:06
+* :information_source: **INFO** MS-FonVal: Total time validating file DETAILS: 0:00:07
 * :bread: **PASS** MS-FonVal: The numTables field is non-zero DETAILS: 18
 * :bread: **PASS** MS-FonVal: The searchRange, entrySelector, and rangeShift fields are all valid
 * :bread: **PASS** MS-FonVal: The directory entry tags are in ascending order
@@ -662,14 +662,13 @@ Reports are ready!
 * :bread: **PASS** MS-FonVal: Table length is 54 bytes
 * :bread: **PASS** MS-FonVal: The table version number is 0x00010000
 * :bread: **PASS** MS-FonVal: fontRevision is consistent with the font's version string DETAILS: 1.000
-* :bread: **PASS** MS-FonVal: Font checksum is correct DETAILS: 0x0e386eb6
+* :bread: **PASS** MS-FonVal: Font checksum is correct DETAILS: 0x0e33a794
 * :bread: **PASS** MS-FonVal: The magic number is 0x5f0f3cf5
 * :bread: **PASS** MS-FonVal: Non-linear scaling flag (bit 4) is clear, and hdmx table is not present
 * :bread: **PASS** MS-FonVal: Non-linear scaling flag (bit 4) is clear, and LTSH table is not present
 * :bread: **PASS** MS-FonVal: Reserved bit 14 of the flags field is clear
 * :bread: **PASS** MS-FonVal: Reserved bit 15 of the flags field is clear
 * :bread: **PASS** MS-FonVal: The created time is not zero DETAILS: created = 3609758639 (Monday, May 21, 2018 2:43 PM)
-* :bread: **PASS** MS-FonVal: The modified time is not zero DETAILS: modified = 3622341659 (Sunday, October 14, 2018 6:00 AM)
 * :bread: **PASS** MS-FonVal: The xMin value matches the minimum glyph xMin DETAILS: xMin = -196
 * :bread: **PASS** MS-FonVal: The yMin value matches the minimum glyph yMin DETAILS: yMin = -306
 * :bread: **PASS** MS-FonVal: The xMax value matches the maximum glyph xMax DETAILS: xMax = 986
@@ -905,6 +904,7 @@ Reports are ready!
 * :warning: **WARN** MS-FonVal: Not all extremes are marked with the on-curve control points  DETAILS: Glyph index 419
 * :warning: **WARN** MS-FonVal: Not all extremes are marked with the on-curve control points  DETAILS: Glyph index 421
 * :warning: **WARN** MS-FonVal: The unitsPerEm value is not a power of two DETAILS: 1000
+* :warning: **WARN** MS-FonVal: The modified time is an unlikely value DETAILS: modified = 3622498220 (Tuesday, October 16, 2018 1:30 AM)
 * :warning: **WARN** MS-FonVal: maxSizeOfInstructions computation not via either approved method DETAILS: glyf maxSizeOfInstructions=266, prep size=189, fpgm size=3605, whereas maxp maxSizeOfInstruction is 3605
 
 </details>
@@ -1304,7 +1304,7 @@ The version string must ideally include a git commit hash and either a 'dev' or 
 <summary>:information_source: <b>INFO:</b> Font contains all required tables?</summary>
 
 * [com.google.fonts/check/052](https://github.com/googlefonts/fontbakery/search?q=com.google.fonts/check/052)
-* :information_source: **INFO** This font contains the following optional tables [GPOS, gasp, DSIG, prep, loca, cvt , fpgm, GSUB]
+* :information_source: **INFO** This font contains the following optional tables [GPOS, fpgm, GSUB, DSIG, prep, loca, cvt , gasp]
 * :bread: **PASS** Font contains all required tables.
 
 </details>
