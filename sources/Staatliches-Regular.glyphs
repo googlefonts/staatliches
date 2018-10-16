@@ -1,12 +1,5 @@
 {
-.appVersion = "1172";
-DisplayStrings = (
-"/CA.ss01",
-fi,
-"/fi fi",
-"/fl fl",
-il
-);
+.appVersion = "1141";
 classes = (
 {
 automatic = 1;
@@ -36267,6 +36260,9 @@ name = Regular;
 keepAlternatesTogether = 1;
 kerning = {
 "105671D0-52CD-46B5-9B81-8ED8F76D0899" = {
+"@MMK_L_0" = {
+"@MMK_R_AE" = -30;
+};
 "@MMK_L_A" = {
 "@MMK_R_A" = 2;
 "@MMK_R_H" = 0;
@@ -36348,7 +36344,7 @@ underscore = -80;
 };
 "@MMK_L_E" = {
 "@MMK_R_A" = -10;
-"@MMK_R_AE" = -70;
+"@MMK_R_AE" = -40;
 "@MMK_R_J" = -35;
 "@MMK_R_O" = -16;
 "@MMK_R_S" = -6;
@@ -36376,7 +36372,7 @@ underscore = -100;
 "@MMK_R_O" = 0;
 "@MMK_R_T" = 0;
 "@MMK_R_V" = 0;
-"@MMK_R_Y" = -30;
+"@MMK_R_Y" = 0;
 };
 "@MMK_L_I" = {
 "@MMK_R_A" = -20;
@@ -36417,7 +36413,7 @@ six = -30;
 };
 "@MMK_L_L" = {
 "@MMK_R_J" = -30;
-"@MMK_R_O" = -34;
+"@MMK_R_O" = -14;
 "@MMK_R_S" = -25;
 "@MMK_R_T" = -100;
 "@MMK_R_U" = -20;
@@ -36448,7 +36444,7 @@ three = -20;
 };
 "@MMK_L_O" = {
 "@MMK_R_A" = -18;
-"@MMK_R_AE" = -20;
+"@MMK_R_AE" = -30;
 "@MMK_R_H" = 0;
 "@MMK_R_J" = 0;
 "@MMK_R_O" = 0;
@@ -36478,7 +36474,7 @@ underscore = -50;
 };
 "@MMK_L_P" = {
 "@MMK_R_A" = -50;
-"@MMK_R_AE" = -120;
+"@MMK_R_AE" = -100;
 "@MMK_R_J" = -120;
 "@MMK_R_O" = -10;
 "@MMK_R_T" = -10;
@@ -36512,6 +36508,7 @@ seven = -30;
 };
 "@MMK_L_S" = {
 "@MMK_R_A" = -20;
+"@MMK_R_AE" = -30;
 "@MMK_R_J" = -20;
 "@MMK_R_O" = 0;
 "@MMK_R_S" = -11;
@@ -36528,6 +36525,7 @@ slash = -30;
 };
 "@MMK_L_T" = {
 "@MMK_R_A" = -36;
+"@MMK_R_AE" = -80;
 "@MMK_R_H" = 0;
 "@MMK_R_J" = -90;
 "@MMK_R_L" = 20;
@@ -36552,11 +36550,13 @@ slash = -60;
 };
 "@MMK_L_U" = {
 "@MMK_R_A" = -16;
+"@MMK_R_AE" = -50;
 "@MMK_R_X" = -10;
 slash = -30;
 };
 "@MMK_L_V" = {
 "@MMK_R_A" = -42;
+"@MMK_R_AE" = -90;
 "@MMK_R_J" = -72;
 "@MMK_R_O" = -20;
 "@MMK_R_S" = -13;
@@ -36607,7 +36607,8 @@ two = -20;
 };
 "@MMK_L_Y" = {
 "@MMK_R_A" = -60;
-"@MMK_R_H" = -10;
+"@MMK_R_AE" = -90;
+"@MMK_R_H" = 0;
 "@MMK_R_J" = -110;
 "@MMK_R_O" = -33;
 "@MMK_R_S" = -20;
@@ -36670,6 +36671,7 @@ seven = -50;
 };
 "@MMK_L_dash" = {
 "@MMK_R_A" = -30;
+"@MMK_R_AE" = -70;
 "@MMK_R_T" = -50;
 "@MMK_R_V" = -20;
 "@MMK_R_X" = -30;
@@ -36703,10 +36705,12 @@ seven = -40;
 seven = -30;
 };
 "@MMK_L_plus" = {
+"@MMK_R_AE" = -50;
 seven = -100;
 };
 "@MMK_L_quote" = {
 "@MMK_R_A" = -35;
+"@MMK_R_AE" = -70;
 };
 "@MMK_L_quotedright" = {
 "@MMK_R_A" = -60;
@@ -36727,6 +36731,7 @@ four = -50;
 };
 "@MMK_L_sqbracket" = {
 "@MMK_R_A" = -20;
+"@MMK_R_AE" = -30;
 "@MMK_R_O" = -20;
 "@MMK_R_S" = -20;
 };
@@ -36747,6 +36752,9 @@ P = {
 };
 Q = {
 "@MMK_R_U" = 0;
+};
+S.alt1 = {
+"@MMK_R_AE" = -20;
 };
 T = {
 "@MMK_R_A" = -46;
@@ -36781,9 +36789,16 @@ seven = -60;
 three = -30;
 two = -20;
 };
+approxequal = {
+"@MMK_R_AE" = -60;
+};
 asciicircum = {
 "@MMK_R_A" = -30;
+"@MMK_R_AE" = -110;
 "@MMK_R_J" = -190;
+};
+asciitilde = {
+"@MMK_R_AE" = -100;
 };
 asterisk = {
 "@MMK_R_A" = -40;
@@ -36806,6 +36821,9 @@ degree = {
 "@MMK_R_A" = -50;
 "@MMK_R_J" = -190;
 };
+divide = {
+"@MMK_R_AE" = -50;
+};
 eight = {
 "@MMK_R_A" = -20;
 "@MMK_R_T" = -10;
@@ -36816,16 +36834,22 @@ eight = {
 nine = -5;
 seven = -40;
 };
+equal = {
+"@MMK_R_AE" = -50;
+};
 five = {
 "@MMK_R_A" = 0;
+"@MMK_R_AE" = -20;
 "@MMK_R_J" = 0;
 "@MMK_R_S" = 0;
 seven = -20;
 };
 florin = {
 "@MMK_R_A" = -40;
+"@MMK_R_AE" = -60;
 };
 four = {
+"@MMK_R_AE" = -20;
 "@MMK_R_quotedright" = -20;
 "@MMK_R_quoteleft" = -30;
 asterisk = -50;
@@ -36841,17 +36865,23 @@ four = -70;
 };
 greater = {
 "@MMK_R_A" = -30;
+"@MMK_R_AE" = -100;
 "@MMK_R_S" = -20;
 "@MMK_R_T" = -40;
 "@MMK_R_V" = -40;
 "@MMK_R_X" = -40;
 "@MMK_R_Z" = -40;
 };
+greaterequal = {
+"@MMK_R_AE" = -10;
+};
 infinity = {
 "@MMK_R_A" = -30;
+"@MMK_R_AE" = -60;
 };
 less = {
 "@MMK_R_A" = -20;
+"@MMK_R_AE" = -40;
 "@MMK_R_T" = -30;
 "@MMK_R_V" = -20;
 "@MMK_R_X" = -20;
@@ -36865,15 +36895,26 @@ logicalnot = {
 "@MMK_R_Z" = -20;
 seven = -70;
 };
+minus = {
+"@MMK_R_AE" = -50;
+};
+multiply = {
+"@MMK_R_AE" = -50;
+};
 nine = {
 "@MMK_R_A" = -20;
+"@MMK_R_AE" = -30;
 "@MMK_R_V" = -10;
 "@MMK_R_X" = -10;
 "@MMK_R_Y" = -16;
 seven = -10;
 };
+notequal = {
+"@MMK_R_AE" = -50;
+};
 numbersign.alt1 = {
 "@MMK_R_A" = -20;
+"@MMK_R_AE" = -60;
 "@MMK_R_X" = 0;
 };
 period = {
@@ -36910,6 +36951,7 @@ registered = {
 };
 seven = {
 "@MMK_R_A" = -53;
+"@MMK_R_AE" = -100;
 "@MMK_R_J" = -90;
 "@MMK_R_O" = -20;
 "@MMK_R_colon" = -40;
@@ -36932,6 +36974,7 @@ seven = -20;
 };
 slash = {
 "@MMK_R_A" = -50;
+"@MMK_R_AE" = -70;
 "@MMK_R_J" = -50;
 "@MMK_R_O" = 0;
 four = -60;
@@ -36948,6 +36991,7 @@ three = 10;
 };
 three = {
 "@MMK_R_A" = -20;
+"@MMK_R_AE" = -30;
 "@MMK_R_O" = 0;
 "@MMK_R_V" = -20;
 "@MMK_R_X" = -15;
