@@ -1,7 +1,7 @@
 {
 .appVersion = "1172";
 DisplayStrings = (
-"0"
+"C/Cacute"
 );
 classes = (
 {
@@ -252,35 +252,35 @@ capHeight = 696;
 customParameters = (
 {
 name = typoAscender;
-value = 800;
+value = 950;
 },
 {
 name = typoDescender;
-value = -200;
+value = -300;
 },
 {
 name = typoLineGap;
 value = 0;
 },
 {
-name = winAscent;
-value = 1137;
-},
-{
-name = winDescent;
-value = 326;
-},
-{
 name = hheaAscender;
-value = 800;
+value = 950;
 },
 {
 name = hheaDescender;
-value = -200;
+value = -300;
 },
 {
 name = hheaLineGap;
 value = 0;
+},
+{
+name = winAscent;
+value = 1006;
+},
+{
+name = winDescent;
+value = -306;
 },
 {
 name = TTFZones;
@@ -336,10 +336,6 @@ name = "Stem:3";
 width = 128;
 }
 );
-},
-{
-name = "New Parameter";
-value = "New Value";
 }
 );
 descender = -200;
