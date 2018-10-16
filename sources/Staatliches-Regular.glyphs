@@ -1,5 +1,12 @@
 {
 .appVersion = "1172";
+DisplayStrings = (
+"/CA.ss01",
+fi,
+"/fi fi",
+"/fl fl",
+il
+);
 classes = (
 {
 automatic = 1;
@@ -261,11 +268,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 80;
+value = 1137;
 },
 {
 name = winDescent;
-value = -200;
+value = 326;
 },
 {
 name = hheaAscender;
@@ -15153,11 +15160,11 @@ name = f;
 },
 {
 name = i;
-transform = "{1, 0, 0, 1, 421, 0}";
+transform = "{1, 0, 0, 1, 431, 0}";
 }
 );
 layerId = "105671D0-52CD-46B5-9B81-8ED8F76D0899";
-width = 631;
+width = 641;
 }
 );
 leftKerningGroup = H;
@@ -15182,11 +15189,11 @@ name = f;
 },
 {
 name = l;
-transform = "{1, 0, 0, 1, 421, 0}";
+transform = "{1, 0, 0, 1, 431, 0}";
 }
 );
 layerId = "105671D0-52CD-46B5-9B81-8ED8F76D0899";
-width = 818;
+width = 828;
 }
 );
 leftKerningGroup = H;
@@ -36355,6 +36362,8 @@ three = -10;
 };
 "@MMK_L_F" = {
 "@MMK_R_A" = -59;
+"@MMK_R_H" = 10;
+"@MMK_R_L" = 10;
 "@MMK_R_O" = -36;
 "@MMK_R_low" = -30;
 questiondown = -30;
@@ -36363,6 +36372,7 @@ underscore = -100;
 };
 "@MMK_L_H" = {
 "@MMK_R_A" = 0;
+"@MMK_R_L" = 10;
 "@MMK_R_O" = 0;
 "@MMK_R_T" = 0;
 "@MMK_R_V" = 0;
