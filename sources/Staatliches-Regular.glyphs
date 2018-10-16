@@ -1,5 +1,8 @@
 {
-.appVersion = "1141";
+.appVersion = "1172";
+DisplayStrings = (
+"0"
+);
 classes = (
 {
 automatic = 1;
@@ -15680,8 +15683,11 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"340 141 OFFCURVE",
+"301 111 OFFCURVE",
+"245 111 CURVE",
 "188 111 OFFCURVE",
-"150 143 OFFCURVE",
+"150 141 OFFCURVE",
 "150 191 CURVE",
 "150 508 LINE",
 "150 555 OFFCURVE",
@@ -15690,12 +15696,7 @@ nodes = (
 "301 587 OFFCURVE",
 "339 555 OFFCURVE",
 "339 508 CURVE",
-"340 191 LINE",
-"340 143 OFFCURVE",
-"302 111 OFFCURVE",
-"245 111 CURVE",
-"245 111 CURVE",
-"302 111 OFFCURVE"
+"340 191 LINE"
 );
 }
 );
