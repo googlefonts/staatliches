@@ -1,7 +1,7 @@
 {
 .appVersion = "1172";
 DisplayStrings = (
-"ß"
+"/ellipsis"
 );
 classes = (
 {
@@ -22541,20 +22541,7 @@ unicode = 003B;
 glyphname = ellipsis;
 layers = (
 {
-anchors = (
-{
-name = caret;
-position = "{204, 48}";
-}
-);
 components = (
-{
-name = period;
-},
-{
-name = period;
-transform = "{1, 0, 0, 1, 3, 0}";
-},
 {
 name = period;
 transform = "{1, 0, 0, 1, 3, 0}";
