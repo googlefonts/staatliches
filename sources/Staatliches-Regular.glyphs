@@ -1,7 +1,7 @@
 {
 .appVersion = "1172";
 DisplayStrings = (
-"/ellipsis"
+"/IJ"
 );
 classes = (
 {
@@ -577,12 +577,6 @@ width = 423;
 glyphname = AA.ss01;
 layers = (
 {
-anchors = (
-{
-name = caret;
-position = "{348, 0}";
-}
-);
 components = (
 {
 name = A;
@@ -917,10 +911,6 @@ layers = (
 {
 anchors = (
 {
-name = caret;
-position = "{327, 317}";
-},
-{
 name = ogonek;
 position = "{592, -11}";
 },
@@ -1134,12 +1124,6 @@ unicode = 00C6;
 glyphname = AEacute;
 layers = (
 {
-anchors = (
-{
-name = caret;
-position = "{341, 327}";
-}
-);
 components = (
 {
 name = AE;
@@ -4263,6 +4247,10 @@ glyphname = IJ;
 layers = (
 {
 anchors = (
+{
+name = caret;
+position = "{182, 401}";
+},
 {
 name = top;
 position = "{422, 835}";
