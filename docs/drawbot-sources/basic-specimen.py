@@ -30,7 +30,7 @@ newPage(W, H)
 fill(0)           # Background color
 rect(0, 0, W, H)  # Draw the background
 
-# Draw the grid (uncomment next line)
+# Draw the grid (uncomment next line to show)
 #grid(32)
 
 # Basic Style
@@ -40,8 +40,6 @@ lineSpaceA = 24
 lineSpaceB = 21
 startPointA = 900
 startPointB = 784
-
-
 
 #draw main
 fontSize(90)
@@ -57,14 +55,12 @@ text("IN WEIMAR", (M, (startPointA)-(lineSpaceA*8)))
 fill(0,0.5,1)
 text("1919—1923", (M, (startPointA)-(lineSpaceA*11)))
 #text("1919—1923", (M, (startPointA)-(lineSpaceA*14)))
-
 tracking(0)
 fill(1)
 text(" ABCDEFGHIJ", (M+379, (startPointA)-(lineSpaceA*2)))
 text(" KLMNOPQRSTUV", (M+265, (startPointA)-(lineSpaceA*5)))
 text(" WXYZ12345678", (M+303, (startPointA)-(lineSpaceA*8)))
 text(" 90!?@$%&.,:;*", (M+326, (startPointA)-(lineSpaceA*11)))
-
 fontSize(48)
 tracking(2)
 text("AÁĂÂÄÀĀĄÅǺÃÆǼBCĆČÇĈĊDÐĎĐĊDÐĎĐEÉĔ", (M, (startPointB)-(lineSpaceB*13)))
@@ -74,7 +70,6 @@ text("ȚUÚŬÛÜÙŰŪŲŮŨVWẂŴẄẀXYÝŶŸỲZŹŽŻ!¡?¿¦", (M, (star
 text("", (M, (startPointB)-(lineSpaceB*25)))
 text("½¼¾(){}[]_-–—“”‘’¢$€ƒ£¥+−×÷=≠∞◊¶", (M, (startPointB)-(lineSpaceB*25)))
 text("§©®™°†‡", (M, (startPointB)-(lineSpaceB*28)))
-
 
 t = FormattedString()
 # set a font
@@ -88,10 +83,8 @@ t.appendGlyph("A.alt1", "A.alt2", "Eng", "S.alt1", "germandbls", "zero.zero", "n
 # draw the formatted string
 text(t, (304, 194))
 
-
 # Save GIF
 os.chdir("docs")
 os.chdir("images")
 saveImage("basic-specimen.gif")
 os.chdir("..")
-#os.chdir("sources")
