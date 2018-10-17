@@ -26,4 +26,8 @@ subprocess.call(['rm', '-rf', 'Staatliches-Regular-Fix.ttf'])
 print("     [+] Done")
 
 os.chdir("..")
+cwd = os.getcwd()
+print("     In Directory:", cwd)
+print("\n**** Run: gftools  **************************************")
+# subprocess.call(['gftools', 'fix-dsgi', 'fonts/Staatliches-Regular.ttf', '--autofix'])
 
