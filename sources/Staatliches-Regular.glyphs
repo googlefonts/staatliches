@@ -1,7 +1,9 @@
 {
 .appVersion = "1172";
 DisplayStrings = (
-"/IJ"
+"/IJ",
+"/CH.ss01",
+"/CA.ss01"
 );
 classes = (
 {
@@ -10,7 +12,7 @@ code = "A A.alt1 A.alt2 AA.ss01 Aacute Abreve Acircumflex Adieresis Agrave Amacr
 name = Uppercase;
 }
 );
-copyright = "2018";
+copyright = "Copyright 2018 The Staatliches Authors (https://github.com/googlefonts/staatliches)";
 customParameters = (
 {
 name = license;
@@ -35904,32 +35906,20 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"571 155 LINE",
-"551 262 LINE",
-"461 262 LINE",
-"441 155 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"455 155 LINE",
-"499 466 LINE",
-"503 504 LINE",
-"466 692 LINE",
-"466 692 OFFCURVE",
-"466 693 OFFCURVE",
-"466 693 CURVE",
-"467 694 OFFCURVE",
-"467 694 OFFCURVE",
-"467 695 CURVE",
-"467 695 OFFCURVE",
-"468 695 OFFCURVE",
-"468 696 CURVE",
-"469 696 OFFCURVE",
-"469 696 OFFCURVE",
-"470 696 CURVE",
-"432 696 LINE",
+"555 155 LINE",
+"580 5 LINE",
+"581 1 OFFCURVE",
+"582 0 OFFCURVE",
+"585 0 CURVE SMOOTH",
+"696 0 LINE SMOOTH",
+"699 0 OFFCURVE",
+"701 1 OFFCURVE",
+"700 5 CURVE",
+"582 692 LINE",
+"581 695 OFFCURVE",
+"579 696 OFFCURVE",
+"577 696 CURVE SMOOTH",
+"432 696 LINE SMOOTH",
 "430 696 OFFCURVE",
 "428 695 OFFCURVE",
 "427 692 CURVE",
@@ -35939,34 +35929,11 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"696 0 LINE",
-"699 0 OFFCURVE",
-"701 1 OFFCURVE",
-"700 5 CURVE",
-"582 692 LINE",
-"581 695 OFFCURVE",
-"579 696 OFFCURVE",
-"577 696 CURVE",
-"470 696 LINE",
-"469 696 OFFCURVE",
-"469 696 OFFCURVE",
-"468 696 CURVE",
-"468 695 OFFCURVE",
-"467 695 OFFCURVE",
-"467 695 CURVE",
-"467 694 OFFCURVE",
-"467 694 OFFCURVE",
-"466 693 CURVE",
-"466 693 OFFCURVE",
-"466 692 OFFCURVE",
-"466 692 CURVE",
-"503 503 LINE",
+"499 466 LINE",
+"504 503 LINE",
 "509 466 LINE",
-"554 160 LINE",
-"580 5 LINE",
-"581 1 OFFCURVE",
-"582 0 OFFCURVE",
-"585 0 CURVE"
+"539 262 LINE",
+"470 262 LINE"
 );
 }
 );
