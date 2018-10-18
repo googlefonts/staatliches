@@ -4,6 +4,7 @@
 
 # Specimen
 
+![basic specimen](https://github.com/googlefonts/staatliches/blob/master/docs/images/type-brut-specimen-c.jpg)
 ![basic specimen](https://github.com/googlefonts/staatliches/blob/master/docs/images/type-brut-specimen.jpg)
 
 # License
