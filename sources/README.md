@@ -1,9 +1,9 @@
 # Source Notes
 
-The `ttf` file is built from source using the following command from the root directory:
+The font file `Staatliches/fonts/Staatliches-Regular.ttf` is built from source using the following command from the root directory:
 
 ```
-py sources/BUILD.py && gftools fix-dsig fonts/Staatliches-Regular.ttf --autofix
+python sources/BUILD.py && gftools fix-dsig fonts/Staatliches-Regular.ttf --autofix
 ```
 
 Dependencies installed should include:
