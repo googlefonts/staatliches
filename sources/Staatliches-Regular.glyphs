@@ -12,7 +12,7 @@ code = "A A.alt1 A.alt2 AA.ss01 Aacute Abreve Acircumflex Adieresis Agrave Amacr
 name = Uppercase;
 }
 );
-copyright = "Copyright 2018 The Staatliches Authors (https://github.com/googlefonts/staatliches)";
+copyright = "Copyright 2018 The Staatliches Project Authors (https://github.com/googlefonts/staatliches)";
 customParameters = (
 {
 name = license;
