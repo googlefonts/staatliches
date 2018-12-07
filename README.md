@@ -4,6 +4,9 @@
 
 # Specimen
 
+![basic specimen](https://github.com/googlefonts/staatliches/blob/master/docs/images/Staatliches-1.png)
+![basic specimen](https://github.com/googlefonts/staatliches/blob/master/docs/images/Staatliches-2.png)
+![basic specimen](https://github.com/googlefonts/staatliches/blob/master/docs/images/Staatliches-3.png)
 ![basic specimen](https://github.com/googlefonts/staatliches/blob/master/docs/images/type-brut-specimen-c.jpg)
 ![basic specimen](https://github.com/googlefonts/staatliches/blob/master/docs/images/type-brut-specimen.jpg)
 
